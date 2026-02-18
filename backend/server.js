@@ -65,7 +65,7 @@ app.post('/api/users', (req, res) => {
   }
   
   const newUser = {
-    id: users.length + 1,
+    id: users.length > 0 ? Math.max(...users.map(u => u.id)) + 1 : 1,
     name,
     email,
     role: role || 'Usuário'
