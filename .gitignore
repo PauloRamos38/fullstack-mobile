@@ -1,0 +1,96 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production
+/build
+/dist
+
+# Testing
+/coverage
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# React Native
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Android
+*.apk
+*.aab
+/android/app/debug
+/android/app/release
+/android/.gradle
+/android/captures/
+/android/local.properties
+*.iml
+/android/.idea
+/android/app/build/
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+**/ios/Pods/
+**/ios/.xcode.env.local
+ios/build/
+ios/Pods/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
